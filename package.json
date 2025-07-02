@@ -1,13 +1,13 @@
 {
-  "name": "dev-tools-hub",
-  "version": "1.0.0",
+  "name": "devtools-kit",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dev-tools-hub": "./index.js"
+    "devtools-kit": "index.js"
   },
   "author": "",
   "license": "ISC",
