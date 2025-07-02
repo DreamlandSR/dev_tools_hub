@@ -6,6 +6,6 @@ export default function createFolders(projectDir) {
   folders.forEach((folder) => {
     const folderPath = path.join(projectDir, "src", folder);
     fs.mkdirSync(folderPath, { recursive: true });
-    console.log(`📁 ${folder} შეიქმნა`);
+    console.log(`📁 ${folder} folder created`);
   });
 }

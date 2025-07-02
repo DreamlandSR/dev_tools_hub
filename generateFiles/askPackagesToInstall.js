@@ -1,6 +1,7 @@
 import prompts from "prompts";
 import { execSync } from "child_process";
 
+// Function to ask the user which packages they want to install
 async function askPackagesToInstall() {
   const choices = [
     { title: "axios", value: "axios" },
@@ -8,13 +9,13 @@ async function askPackagesToInstall() {
     { title: "zustand", value: "zustand" },
     { title: "formik", value: "formik" },
     { title: "yup", value: "yup" },
-    // შეგიძლია დაამატო ნებისმიერი პაკეტი აქ
+    // You can add more packages here
   ];
 
   const response = await prompts({
     type: "multiselect",
     name: "packages",
-    message: "რომელი პაკეტების დაყენება გინდა?",
+    message: "Which packages do you want to install?",
     choices,
     min: 1,
   });
@@ -22,24 +23,27 @@ async function askPackagesToInstall() {
   return response.packages || [];
 }
 
+// Function to install selected packages inside the project directory
 async function installAdditionalPackages(projectDir) {
   const packages = await askPackagesToInstall();
 
   if (packages.length === 0) {
-    console.log("❗ არ არის არჩეული დამატებითი პაკეტები.");
+    console.log("❗ No additional packages selected.");
     return;
   }
 
   const pkgsStr = packages.join(" ");
 
-  console.log(`🎯 დამატებითი პაკეტების დაყენება: ${pkgsStr} ...`);
+  console.log(`🎯 Installing additional packages: ${pkgsStr} ...`);
   execSync(`npm install ${pkgsStr}`, { stdio: "inherit", cwd: projectDir });
 }
+
+// Main export to use in the CLI
 export default async function askAndInstallPackages(projectDir) {
   try {
     await installAdditionalPackages(projectDir);
-    console.log("✅ დამატებითი პაკეტები წარმატებით დაინსტალირდა!");
+    console.log("✅ Additional packages installed successfully!");
   } catch (error) {
-    console.error("❌ დამატებითი პაკეტების დაყენებისას მოხდა შეცდომა:", error);
+    console.error("❌ Error occurred while installing additional packages:", error);
   }
 }

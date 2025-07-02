@@ -19,7 +19,7 @@ export default function ColorGenerator() {
         className="px-4 py-2 rounded text-white"
         style={{ backgroundColor: color || 'hsl(220,70%,50%)' }}
       >
-        ფერის გენერაცია
+        Generete Random Color
       </button>
       {color && (
         <div className="mt-4">

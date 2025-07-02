@@ -32,14 +32,14 @@ npm link
 Usage (after local or global install)
 
 ```bash
-dev-tools-kit my-app
+devtools-kit my-app
 ```
 
 Global Installation (Recommended for users)
 
 ```bash
-npm install -g dev-tools-kit
-dev-tools-kit my-app
+npm install -g devtools-kit
+devtools-kit my-app
 ```
 After Setup
 ```

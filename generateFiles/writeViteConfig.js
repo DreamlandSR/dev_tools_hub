@@ -12,5 +12,5 @@ export default defineConfig({
 `;
 
   fs.writeFileSync(path.join(projectDir, "vite.config.ts"), content);
-  console.log("⚙️  vite.config.ts განახლდა Tailwind პლაგინით");
+  console.log("⚙️  vite.config.ts updated with Tailwind plugin");
 }

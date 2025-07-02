@@ -1,6 +1,6 @@
 {
   "name": "devtools-kit",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "prompts": "^2.4.2"
   }
 }
