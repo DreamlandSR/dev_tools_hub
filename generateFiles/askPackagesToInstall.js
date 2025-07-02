@@ -4,12 +4,47 @@ import { execSync } from "child_process";
 // Function to ask the user which packages they want to install
 async function askPackagesToInstall() {
   const choices = [
+    // Essentials
     { title: "axios", value: "axios" },
     { title: "react-router-dom", value: "react-router-dom" },
+    { title: "classnames", value: "classnames" },
+    { title: "react-icons", value: "react-icons" },
+    { title: "sweetalert2", value: "sweetalert2" },
+    { title: "react-toastify", value: "react-toastify" },
+    { title: "framer-motion", value: "framer-motion" },
+
+    // State Management
     { title: "zustand", value: "zustand" },
+    { title: "@tanstack/react-query", value: "@tanstack/react-query" },
+    { title: "jotai", value: "jotai" },
+    { title: "recoil", value: "recoil" },
+
+    // Forms & Validation
+    { title: "react-hook-form", value: "react-hook-form" },
     { title: "formik", value: "formik" },
     { title: "yup", value: "yup" },
-    // You can add more packages here
+    { title: "zod", value: "zod" },
+
+    // Date & Time
+    { title: "date-fns", value: "date-fns" },
+    { title: "dayjs", value: "dayjs" },
+
+    // UI / Headless Libraries
+    { title: "@headlessui/react", value: "@headlessui/react" },
+    { title: "@heroicons/react", value: "@heroicons/react" },
+    { title: "lucide-react", value: "lucide-react" },
+    { title: "@radix-ui/react-avatar", value: "@radix-ui/react-avatar" },
+    { title: "@radix-ui/react-tooltip", value: "@radix-ui/react-tooltip" },
+
+    // Charts & Visualization
+    { title: "recharts", value: "recharts" },
+    { title: "chart.js", value: "chart.js" },
+
+    // Utilities
+    { title: "uuid", value: "uuid" },
+    { title: "lodash", value: "lodash" },
+    { title: "react-loading-skeleton", value: "react-loading-skeleton" },
+    { title: "react-error-boundary", value: "react-error-boundary" },
   ];
 
   const response = await prompts({
@@ -44,6 +79,9 @@ export default async function askAndInstallPackages(projectDir) {
     await installAdditionalPackages(projectDir);
     console.log("✅ Additional packages installed successfully!");
   } catch (error) {
-    console.error("❌ Error occurred while installing additional packages:", error);
+    console.error(
+      "❌ Error occurred while installing additional packages:",
+      error
+    );
   }
 }
