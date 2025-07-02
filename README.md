@@ -39,8 +39,6 @@ Global Installation (Recommended for users)
 
 ```bash
 npm install -g dev-tools-kit
-```bash
-
 dev-tools-kit my-app
 ```
 After Setup
