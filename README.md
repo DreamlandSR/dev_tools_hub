@@ -25,6 +25,7 @@ git clone https://github.com/tusho98/dev-tools-hub.git
 cd dev-tools-hub
 npm install
 npm link
+```
 
 🚀 Usage, Global Installation & After Setup
 
@@ -32,13 +33,19 @@ Usage (after local or global install)
 
 ```bash
 dev-tools-kit my-app
+```
 
 Global Installation (Recommended for users)
+
 ```bash
 npm install -g dev-tools-kit
-dev-tools-kit my-app
+```bash
 
+dev-tools-kit my-app
+```
 After Setup
+```
 cd my-app
 npm install
 npm run dev
+```
