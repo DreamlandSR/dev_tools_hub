@@ -3,17 +3,8 @@
   "version": "1.0.6",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "devtools-kit": "index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "prompts": "^2.4.2"
   },
   "keywords": [
     "cli",
@@ -26,5 +17,12 @@
     "boilerplate",
     "devtools",
     "toolkit"
-  ]
+  ],
+  "author": {
+    "name": "Sandro Tushurashvili",
+    "email": "sandrotushurashvili7@gmail.com",
+    "url": "https://github.com/tusho7"
+  },
+  "license": "ISC",
+  "description": "Simple CLI tool to bootstrap Vite + React + TS + Tailwind projects."
 }
