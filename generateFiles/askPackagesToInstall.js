@@ -12,18 +12,28 @@ async function askPackagesToInstall() {
     { title: "sweetalert2", value: "sweetalert2" },
     { title: "react-toastify", value: "react-toastify" },
     { title: "framer-motion", value: "framer-motion" },
+    { title: "react-lottie", value: "react-lottie" },
+    { title: "react-helmet", value: "react-helmet" },
+    { title: "react-i18next", value: "react-i18next" },
+    { title: "i18next", value: "i18next" },
+    
 
     // State Management
     { title: "zustand", value: "zustand" },
     { title: "@tanstack/react-query", value: "@tanstack/react-query" },
     { title: "jotai", value: "jotai" },
     { title: "recoil", value: "recoil" },
+    { title: "redux", value: "redux" },
+    { title: "react-redux", value: "react-redux" },
+    { title: "redux-thunk", value: "redux-thunk" },
+    { title: "redux-saga", value: "redux-saga" },
 
     // Forms & Validation
     { title: "react-hook-form", value: "react-hook-form" },
     { title: "formik", value: "formik" },
     { title: "yup", value: "yup" },
     { title: "zod", value: "zod" },
+    
 
     // Date & Time
     { title: "date-fns", value: "date-fns" },
@@ -39,6 +49,9 @@ async function askPackagesToInstall() {
     // Charts & Visualization
     { title: "recharts", value: "recharts" },
     { title: "chart.js", value: "chart.js" },
+    { title: "d3", value: "d3" },
+    { title: "visx", value: "visx" },
+    { title: "react-vis", value: "react-vis" },
 
     // Utilities
     { title: "uuid", value: "uuid" },
