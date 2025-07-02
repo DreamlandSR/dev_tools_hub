@@ -1,6 +1,6 @@
 import path from "path";
 import { fileURLToPath } from "url";
-import fs from "fs";
+import fs, { write } from "fs";
 import fsPromises from "fs/promises";
 import createProject from "./createProject.js";
 import installTailwind from "./installTailwind.js";
@@ -8,6 +8,8 @@ import writeTailwindConfig from "./generateFiles/writeTailwindConfig.js";
 import writeViteConfig from "./generateFiles/writeViteConfig.js";
 import createFolders from "./generateFiles/createFolders.js";
 import createColorGenerator from "./generateFiles/createColorGenerator.js";
+import writeApp from "./generateFiles/writeApp.js";
+import cleanMainCssImport from "./generateFiles/cleanMainCssImport.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -49,10 +51,10 @@ async function main() {
   writeViteConfig(projectDir);
   createFolders(projectDir);
   createColorGenerator(projectDir);
+  writeApp(projectDir);
 
   
   const appCssPath = path.join(projectDir, "src", "App.css");
-  const indexCssPath = path.join(projectDir, "src", "index.css");
 
   try {
     if (fs.existsSync(appCssPath)) {
@@ -60,10 +62,7 @@ async function main() {
       console.log("🧹 App.css წაიშალა");
     }
 
-    if (fs.existsSync(indexCssPath)) {
-      fs.unlinkSync(indexCssPath);
-      console.log("🧹 index.css წაიშალა (წინა)");
-    }
+ 
   } catch (err) {
     console.error("❌ ფაილების წაშლისას მოხდა შეცდომა:", err);
   }
