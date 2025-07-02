@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import path from "path";
 import { fileURLToPath } from "url";
 import fs, { write } from "fs";
@@ -9,7 +10,7 @@ import writeViteConfig from "./generateFiles/writeViteConfig.js";
 import createFolders from "./generateFiles/createFolders.js";
 import createColorGenerator from "./generateFiles/createColorGenerator.js";
 import writeApp from "./generateFiles/writeApp.js";
-import cleanMainCssImport from "./generateFiles/cleanMainCssImport.js";
+import installAdditionalPackages from "./generateFiles/askPackagesToInstall.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -52,6 +53,7 @@ async function main() {
   createFolders(projectDir);
   createColorGenerator(projectDir);
   writeApp(projectDir);
+  installAdditionalPackages(projectDir);
 
   
   const appCssPath = path.join(projectDir, "src", "App.css");

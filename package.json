@@ -1,12 +1,18 @@
 {
-  "name": "dev_tools_hub",
+  "name": "dev-tools-hub",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "dev-tools-hub": "./index.js"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "prompts": "^2.4.2"
+  }
 }
