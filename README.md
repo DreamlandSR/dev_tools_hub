@@ -21,7 +21,7 @@
 If you're contributing to or testing the CLI tool locally:
 
 ```bash
-git clone https://github.com/tusho98/dev-tools-hub.git
+git clone https://github.com/tusho7/dev_tools_hub.git
 cd dev-tools-hub
 npm install
 npm link
