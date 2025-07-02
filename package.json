@@ -14,5 +14,17 @@
   "description": "",
   "dependencies": {
     "prompts": "^2.4.2"
-  }
+  },
+  "keywords": [
+    "cli",
+    "vite",
+    "react",
+    "tailwind",
+    "typescript",
+    "starter",
+    "scaffold",
+    "boilerplate",
+    "devtools",
+    "toolkit"
+  ]
 }
