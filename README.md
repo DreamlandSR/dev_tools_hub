@@ -6,13 +6,17 @@
 
 ## ✨ Features
 
-- 🔧 Initializes a Vite + React + TypeScript project  
-- 🎨 Automatically installs Tailwind CSS with full configuration  
+- 🔧 Initializes a **Vite + React + TypeScript** project  
+- 🎨 Automatically installs **Tailwind CSS** with full configuration  
 - 🗂️ Creates a clean folder structure (`components/`, `pages/`, `hooks/`, etc.)  
-- 🌈 Generates a Tailwind color palette helper  
+- 🌈 Generates a **Tailwind color palette helper** component  
+- 🌈 Adds a **custom Tailwind color palette**:
+  - Primary / Secondary / Accent colors  
+  - Semantic tokens: `success`, `warning`, `danger`, `info`  
+  - 20+ Tailwind-style color families (`rose`, `sky`, `lime`, etc.)  
 - 📦 Allows you to choose and install optional libraries (`axios`, `react-router-dom`, `zustand`, etc.)  
 - 🧹 Removes unused default files (`App.css`, `index.css`)  
-- 👋 Generates a minimal `App.tsx` with a welcome message  
+- 👋 Generates a minimal `App.tsx` with a welcome message 
 
 ---
 
