@@ -1,6 +1,4 @@
 [![GitHub stars](https://img.shields.io/github/stars/Tusho7/dev_tools_hub?style=social)](https://github.com/Tusho7/dev_tools_hub/stargazers)
-![npm](https://img.shields.io/npm/dw/devtools-kit)
-![npm](https://img.shields.io/npm/dm/devtools-kit)
 
 # 🛠️ dev-tools-kit
 
