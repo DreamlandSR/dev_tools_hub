@@ -1,3 +1,6 @@
+[![GitHub stars](https://img.shields.io/github/stars/Tusho7/dev_tools_hub?style=social)](https://github.com/Tusho7/dev_tools_hub/stargazers)
+
+
 # 🛠️ dev-tools-kit
 
 `dev-tools-kit` is a simple yet powerful CLI tool that bootstraps a modern Vite + React + TypeScript project with Tailwind CSS, recommended folder structure, and optional library installation — all in one command.
